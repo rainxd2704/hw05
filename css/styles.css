@@ -675,3 +675,6 @@ color:#F4F4FD
 .projects-item:hover .overlay{
   transform:translate(0,0);
 }
+.projects-link:focus .overlay{
+  transform:translate(0,0);
+}
