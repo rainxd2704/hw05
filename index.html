@@ -43,8 +43,16 @@
   <section class="hero-oder"> 
     <div class="container">
       <h1 class="hero-title">Effective Solutions for Your Business</h1>
-      <button class="hero-btn" type="button">Order Service</button>
-    </div>                                                                                                                                                                                                                                                                                                                                                                                       
+      <button class="hero-btn" type="button"  data-modal-open>Order Service</button>
+    </div>  
+    
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi alias nihil dolore! Animi omnis, facilis nulla delectus, fugiat quod est alias enim qui itaque vero, sint iure cum cumque dolores.</p>
+      <button data-modal-close>Close</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
 
   </section>  
 
